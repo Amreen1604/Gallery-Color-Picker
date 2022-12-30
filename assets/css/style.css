@@ -1,0 +1,37 @@
+/* *{
+    padding: 0;
+    margin : 0;                          // already used in boostrap
+    box-sizing: border-box;
+} */
+body{
+    background-color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+.all > div
+{
+    height: 300px;
+    width: 300px;
+    border: 1px solid #ffffff;
+    margin-bottom:20px;
+    border-radius: 20px;
+}
+
+.all > div:hover{
+    transition: all 0.4s ease-in-out;
+    transform: scale(1.006) translateY(-5px);
+}
+.red > div{
+    background-color: red;
+}
+
+.deeppink > div{
+    background-color: deeppink;
+}
+
+.orange > div{
+    background-color: orange;
+}
+
+.blueviolet > div{
+    background-color: blueviolet;
+}
